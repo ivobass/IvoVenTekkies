@@ -17,9 +17,13 @@ class _HomeState extends State<Home> {
         child: Column(
           children: <Widget>[
             UserAccountsDrawerHeader(
-              currentAccountPicture: CircleAvatar(child: Text("IB"),),
-              accountName: Text("Ivo Baptista"),
-              accountEmail: Text("ivo@vodafone.pt"),
+              currentAccountPicture: CircleAvatar(
+                child: Text("IB"),
+              ),
+              //accountName: Text("Ivo Baptista"),
+              //accountEmail: Text("ivo@vodafone.pt"),
+              accountName: Text("Renato Ferraz"),
+              accountEmail: Text("renatoferrazdf@gmail.com"),
             ),
           ],
         ),
@@ -40,25 +44,45 @@ class _HomeState extends State<Home> {
         },
       ),
       floatingActionButton: new FloatingActionButton(
-       onPressed: () {
-      print("button is pressed!!!");
+        onPressed: () {
+          print("button is pressed!!!");
         },
         child: new Icon(Icons.add),
         elevation: 2.0,
-     ),
-        bottomNavigationBar: BottomAppBar(
+      ),
+      bottomNavigationBar: BottomAppBar(
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Expanded(child: IconButton(icon: Icon(Icons.home), onPressed: () {},),),
-            Expanded(child: IconButton(icon: Icon(Icons.signal_wifi_4_bar), onPressed: () {},),),
+            Expanded(
+              child: IconButton(
+                icon: Icon(Icons.home),
+                onPressed: () {},
+              ),
+            ),
+            Expanded(
+              child: IconButton(
+                icon: Icon(Icons.signal_wifi_4_bar),
+                onPressed: () {},
+              ),
+            ),
             Expanded(child: new Text('')),
-            Expanded(child: IconButton(icon: Icon(Icons.account_circle), onPressed: () {} ,),),
-            Expanded(child: IconButton(icon: Icon(Icons.settings), onPressed: () {} ,),),
+            Expanded(
+              child: IconButton(
+                icon: Icon(Icons.account_circle),
+                onPressed: () {},
+              ),
+            ),
+            Expanded(
+              child: IconButton(
+                icon: Icon(Icons.settings),
+                onPressed: () {},
+              ),
+            ),
           ],
         ),
-     ),
-     floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
@@ -133,13 +157,13 @@ class IvoList extends StatelessWidget {
                       Text(
                         'Quantidade:',
                         style: TextStyle(
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold),
+                            color: Colors.red, fontWeight: FontWeight.bold),
                       ),
-                      Text(quantidade,
+                      Text(
+                        quantidade,
                         style: TextStyle(
-                            color: Colors.red,
-                            fontWeight: FontWeight.bold),)
+                            color: Colors.red, fontWeight: FontWeight.bold),
+                      )
                     ],
                   )
                 ],
