@@ -20,7 +20,7 @@ void main() {
     home: Home(),
     debugShowCheckedModeBanner: true,
     theme: ThemeData(
-      fontFamily: 'Roboto',
+
       accentColor: Colors.blue,
       hintColor: Colors.white,
       primaryColor: Colors.blueAccent,
