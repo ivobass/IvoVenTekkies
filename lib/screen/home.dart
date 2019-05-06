@@ -25,6 +25,11 @@ class _HomeState extends State<Home> {
               //accountName: Text("Renato Ferraz"),
               //accountEmail: Text("renatoferrazdf@gmail.com"),
             ),
+            ListTile(leading: Icon(Icons.home), title: Text("Home") ,),
+            ListTile(leading: Icon(Icons.account_circle), title: Text("Conta") ,),
+            ListTile(leading: Icon(Icons.notifications), title: Text("Notificações") ,),
+            ListTile(leading: Icon(Icons.arrow_back), title: Text("Sair") ,),
+
           ],
         ),
       ),
