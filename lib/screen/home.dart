@@ -20,11 +20,10 @@ class _HomeState extends State<Home> {
               currentAccountPicture: CircleAvatar(
                 child: Text("IB"),
               ),
-              //accountName: Text("Ivo Baptista"),
-              //accountEmail: Text("ivo@vodafone.pt"),
-             
-              accountName: Text("Renato Ferraz"),
-              accountEmail: Text("renatoferrazdf@gmail.com"),
+              accountName: Text("Ivo Baptista"),
+              accountEmail: Text("ivo@vodafone.pt"),
+              //accountName: Text("Renato Ferraz"),
+              //accountEmail: Text("renatoferrazdf@gmail.com"),
             ),
           ],
         ),
