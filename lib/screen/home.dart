@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
               ),
               //accountName: Text("Ivo Baptista"),
               //accountEmail: Text("ivo@vodafone.pt"),
+             
               accountName: Text("Renato Ferraz"),
               accountEmail: Text("renatoferrazdf@gmail.com"),
             ),
@@ -30,6 +31,7 @@ class _HomeState extends State<Home> {
       ),
       appBar: AppBar(
         title: Text('Vendas Tekkies'),
+        backgroundColor: Colors.red,
       ),
       body: FutureBuilder<List<Ivo>>(
         future: IvoService.getIvo(),
