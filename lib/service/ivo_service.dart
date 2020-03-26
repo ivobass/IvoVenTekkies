@@ -7,8 +7,8 @@ import 'package:http/http.dart' as http;
 class IvoService {
   //recebe as informacoes do Webservice
   static Future<List<Ivo>> getIvo() async {
-    final response = await http.get('http://mobile.semfios.pt/getdata.php');
-    
+    final response = await http.get('http://mobile.xxxxxxx.pt/getdata.php');
+
     //retorna os dados do Json e já atribui ao Model.
     return compute(parseIvo, response.body);
   }
