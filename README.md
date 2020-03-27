@@ -18,6 +18,10 @@ O projeto foi feito com flutter e dart e php para criar uma api REST
 🔧 Tecnologias utilizadas:
 ------------------
 
+- FLUTTER
+- DART 
+- MYSQL
+
 <img src="assets/dartflutter.png" alt="page-home">
 <img src="assets/images.png" alt="page-home">
 
