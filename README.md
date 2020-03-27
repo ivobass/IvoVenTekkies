@@ -1,17 +1,35 @@
-# ivoventek
+<h1 align="center">
+    <img width="600" src="assets/flutter.jpeg" />
+</h1>
 
-A new Flutter project.
 
-## Getting Started
+<p align="center">
+Mobile App feita em Flutter
+</p>
 
-This project is a starting point for a Flutter application.
+📌 IvoVenTekkies 
+------------------
+O projeto foi feito com flutter e dart e php para criar uma api REST
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+<img src="assets/ivoventek.png" alt="page-home">
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-# IvoVenTekkies
+
+🔧 Tecnologias utilizadas:
+------------------
+
+<img src="assets/dartflutter.png" alt="page-home">
+<img src="assets/images.png" alt="page-home">
+
+
+💬 Fale comigo
+------------------
+[*Entre em contato comigo*](https://www.linkedin.com/in/ivo-baptista-3712144/)
+
+
+
+
+
+
+
+
